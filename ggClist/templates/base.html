@@ -46,8 +46,6 @@
         <form action="{% url 'ggClist:newsearch' %}" method="post">
             {% csrf_token %}
             <input type="text" name="Search" placeholder="Search">
-            <input type="text" name="min_price" placeholder="Min Price">
-            <input type="text" name="max_price" placeholder="Max Price">
             <button class="btn waves-effect waves-light" type="submit" name="search">Submit
                 <i class="material-icons right">send</i>
             </button>
