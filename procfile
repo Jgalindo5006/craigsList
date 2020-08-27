@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 web: gunicorn scrapper:wsgi
+=======
+web: gunicorn scrapper:wsgi
+>>>>>>> 68a580438dc108df247b4dc5b83902f296fd554c
